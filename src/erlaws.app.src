@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, erlaws,
+ [{description, "Interfaces to various Amazon WebService offerings"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'erlaws_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto, sasl, inets]}]}.
